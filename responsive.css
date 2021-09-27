@@ -1,0 +1,30 @@
+.navbar #cart{
+  margin-top: 15px;
+}
+@media(max-width: 1300px){
+  .navbar .navbar-brand{
+    font-size: 25px;
+  }
+  .navbar-light .navbar-toggler{
+    padding: 0;
+  }
+  
+  .help .row .col-md-2 h6{
+    padding:0;
+    position: absolute;
+    visibility: hidden;
+  }
+  .help .row .col-md-10{
+    padding-top: 0px;
+  }
+}
+@media(max-width: 900px){
+  /*cart.php -> voucher code*/
+  .store .row .col-md-4 form .row .col-md-4 #apply{
+    margin-top: 10px;
+  }
+  .navbar-light .navbar-nav .nav-item #li_new,.navbar-light .navbar-nav .nav-item #li_trend,.navbar-light .navbar-nav .nav-item #li_clothing,.navbar-light .navbar-nav .nav-item #li_accessories,.navbar-light .navbar-nav .nav-item #li_shoes,.navbar-light .navbar-nav .nav-item #li_sale{
+    visibility: visible;
+    position: static;
+  }
+}
